@@ -6,7 +6,7 @@ function progressHandlingFunction(e) {
 		$('progress').show().prop({value: e.loaded, max: e.total});
 	}
 }
-function errorHandler(e) {
+function errorHandler() {
 	console.error("error");
 	$('progress').hide();
 }

@@ -1,0 +1,35 @@
+.fileupload {
+	border: 2px dashed grey;
+	width: 800px;
+	height: 400px;
+}
+progress {
+	color: #0063a6;
+	font-size: .6em;
+	line-height: 1.5em;
+	text-indent: .5em;
+	width: 15em;
+	height: 1.8em;
+	border: 1px solid #0063a6;
+	background: #fff;
+	display: none;
+}
+#info{
+	background-color: #536DFE;
+	color: white;
+	font-weight: bold;
+	display: none;
+}
+.drop{
+	background-color: #FFF59D;
+	border: 5px dashed #999;
+}
+.drop:after{
+	content: "drag file here";
+	margin-left: 25%;
+	font-size: 50px;
+	color: #999;
+}
+.drop *{
+	display: none;
+}

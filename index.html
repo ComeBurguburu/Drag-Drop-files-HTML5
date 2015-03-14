@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Upload files</title>
+		<link href="css/files.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="info"></div>
+		<progress></progress>
+		
+		<div class="input-wrapper fileupload" title="choisissez un fichier">
+			<input type="hidden" name="repertoire" value="" />
+			<input id="file" type="file" name="files[]" multiple="multiple" />
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/file.js"></script>
+	</body>
+</html>

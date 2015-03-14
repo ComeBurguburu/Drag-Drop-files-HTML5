@@ -30,7 +30,7 @@ function ajax(url, data) {
 			if (xhr.status === 200) {
 				completeHandler(xhr.responseText);
 			} else {
-				errorHandler(xhr.status, xhr.error);
+				errorHandler(xhr.status, xhr.statusText);
 			}
 
 		}
